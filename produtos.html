@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="utf-8">
+	<title>Bikcraft - Conheça as linhas Passeio, Retrô e Esporte</title>
+	<meta name="description"
+		content="Compre a sua bicicleta personalizada na Bikcraft. Possuímos modelos Passeio, Retrô e Esporte.">
+
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Bikcraft - Conheça as linhas Passeio, Retrô e Esporte" />
+	<meta property="og:description"
+		content="Compre a sua bicicleta personalizada na Bikcraft. Possuímos modelos Passeio, Retrô e Esporte." />
+	<meta property="og:url" content="http://bikcraft.com/produtos.html" />
+	<meta property="og:image" content="http://bikcraft.com/img/og-image.png" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<link rel="stylesheet" href="css/style.css">
+	<script>document.documentElement.classList.add("js");</script>
+</head>
+
+<body>
+
+	<header class="header">
+		<div class="container">
+			<a href="index.html" class="grid-4">
+				<img src="img/bikcraft.svg" alt="Bikcraft">
+			</a>
+			<nav class="grid-12 header_menu">
+				<ul>
+					<li><a href="sobre.html">Sobre</a></li>
+					<li><a href="produtos.html" class="menu_ativo">Produtos</a></li>
+					<li><a href="portfolio.html">Portfólio</a></li>
+					<li><a href="contato.html">Contato</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<section class="introducao-interna interna_produtos">
+		<div class="container">
+			<h1 data-anime="400" class="fadeInDown">Produtos</h1>
+			<p data-anime="800" class="fadeInDown">Conheça os nossos produtos</p>
+		</div>
+	</section>
+
+	<section class="container produto_item fadeInDown" data-anime="1200">
+		<div class="grid-11">
+			<img src="img/produtos/bikcraft-passeio-1.jpg" alt="Bikcraft Passeio">
+			<h2>Passeio</h2>
+		</div>
+		<div class="grid-5 produto_icone"><img src="img/produtos/passeio.svg" alt="Icone Passeio"></div>
+		<div class="grid-8"><img src="img/produtos/bikcraft-passeio-2.jpg" alt="Bikcraft Passeio"></div>
+		<div class="grid-8 produto_info">
+			<p>Se você pretende andar de bike pelas ruas da cidade, seja para uso como transporte ao trabalho, faculdade
+				ou simplesmente para aqueles passeios nos parques, jardins e ciclovias, essa é a escolha certa.</p>
+			<ul>
+				<li>Conforto</li>
+				<li>Velocidade</li>
+				<li>Design</li>
+				<li>Versatilidade</li>
+			</ul>
+		</div>
+	</section>
+
+	<section class="container produto_item">
+		<div class="grid-11">
+			<img src="img/produtos/bikcraft-esporte-1.jpg" alt="Bikcraft Esporte">
+			<h2>Esporte</h2>
+		</div>
+		<div class="grid-5 produto_icone"><img src="img/produtos/esporte.svg" alt="Icone Esporte"></div>
+		<div class="grid-8"><img src="img/produtos/bikcraft-esporte-2.jpg" alt="Bikcraft Esporte"></div>
+		<div class="grid-8 produto_info">
+			<p> Ideal para pedalar de forma competitiva em terrenos regulares ou irregulares com mais resistência e
+				durabilidade.</p>
+			<ul>
+				<li>Conforto</li>
+				<li>Velocidade</li>
+				<li>Design</li>
+				<li>Versatilidade</li>
+			</ul>
+		</div>
+	</section>
+
+	<section class="container produto_item">
+		<div class="grid-11">
+			<img src="img/produtos/bikcraft-retro-1.jpg" alt="Bikcraft Retro">
+			<h2>Retrô</h2>
+		</div>
+		<div class="grid-5 produto_icone"><img src="img/produtos/retro.svg" alt="Icone Retro"></div>
+		<div class="grid-8"><img src="img/produtos/bikcraft-retro-2.jpg" alt="Bikcraft Retro"></div>
+		<div class="grid-8 produto_info">
+			<p>A bike vintage é para aqueles que pretendem voltar no tempo, relembrando o design clássico de época e de
+				quando pedalavam no bairro até o por do sol com os amigos.</p>
+			<ul>
+				<li>Conforto</li>
+				<li>Velocidade</li>
+				<li>Design</li>
+				<li>Versatilidade</li>
+			</ul>
+		</div>
+	</section>
+
+	<section class="orcamento">
+		<div class="container">
+			<h2 class="subtitulo">Orçamento</h2>
+			<form id="form_orcamento" method="POST" action="./enviar.php" class="form grid-8 formphp">
+				<label for="nome">Nome</label>
+				<input type="text" id="nome" name="nome" required>
+				<label for="email">E-mail</label>
+				<input type="email" id="email" name="email" required>
+				<label for="telefone">Telefone</label>
+				<input type="text" id="telefone" name="telefone">
+
+				<label class="nao-aparece">Se você não é um robô, deixe em branco.</label>
+				<input type="text" class="nao-aparece" name="leaveblank">
+				<label class="nao-aparece">Se você não é um robô, não mude este campo.</label>
+				<input type="text" class="nao-aparece" name="dontchange" value="http://">
+
+				<label for="mensagem">Mensagem</label>
+				<textarea id="mensagem" name="mensagem" required></textarea>
+				<button id="enviar" name="enviar" type="submit" class="btn">Enviar</button>
+			</form>
+
+			<div class="orcamento_dados grid-8">
+				<h3>Nossos dados</h3>
+				<span><a href="tel:1194674-9846">+55 (11) 94674-9846</a></li></span>
+				<span><a href="mailto:contactbikcraft@gmail.com">contactbikcraft@gmail.com></a></span>
+				<h3>Monte a sua Bikcraft!</h3>
+				<p>Escolha as especificações:</p>
+				<ul>
+					<select name="subcateg" class="form-control filtro select-two">
+						<option value="10">Categoria</option>
+						<option value="12">Elétrica</option>
+						<option value="11">Estrada</option>
+						<option value="14">Infantil</option>
+						<option value="13">Lazer</option>
+						<option value="10">Mountain Bike</option>
+						<option value="1248">Urbana</option>
+					</select>
+			</div>
+			<div class="col-12 col-md-2 mb-4">
+				<select name="quadro" class="form-control filtro select-two">
+					<option value="">Material do Quadro</option>
+					<option value="34">Aço</option>
+					<option value="1250">Alumínio</option>
+					<option value="1251">Carbono</option>
+				</select>
+			</div>
+			<div class="col-12 col-md-2 mb-4">
+				<select name="aro" class="form-control filtro select-two">
+					<option value="">Tamanho do aro</option>
+					<option value="35">Aro 26</option>
+					<option value="1254">Aro 20</option>
+					<option value="1255">Aro 24</option>
+					<option value="1256">Aro 29</option>
+				</select>
+			</div>
+			<div class="col-12 col-md-2 mb-4">
+				<select name="cor" class="form-control filtro select-two">
+					<option value="">Cor</option>
+					<option value="1258">Preta</option>
+					<option value="1259">Cinza</option>
+					<option value="1260">Branca</option>
+					<option value="1261">Vermelha</option>
+					<option value="1263">Laranja</option>
+					<option value="1265">Amarela</option>
+					<option value="1266">Verde</option>
+					<option value="1267">Azul</option>
+					<option value="1271">Prata</option>
+					<option value="1306">Grafite</option>
+				</select>
+			</div>
+			<div class="col-12 col-md-2 mb-4">
+				<select name="velocidade" class="form-control filtro select-two">
+					<option value="">Velocidade</option>
+					<option value="1291">7 velocidades</option>
+					<option value="1293">10 velocidades</option>
+					<option value="1294">12 velocidades</option>
+					<option value="1297">20 velocidades</option>
+					<option value="1298">21 velocidades</option>
+					<option value="1299">24 velocidades</option>
+					<option value="1300">27 velocidades</option>
+					<option value="1305">18 velocidades</option>
+				</select>
+			</div>
+			<div class="col-12 col-md-2 mb-4">
+				<select name="preco" class="form-control filtro select-two">
+					<option value="">Preço</option>
+					<option value="1272">Até R$ 500,00</option>
+					<option value="1273">De R$ 501,00 até R$ 1000,00</option>
+					<option value="1274">De R$ 1001,00 até R$ 2000,00</option>
+					<option value="1275">De R$ 2001,00 até R$ 3000,00</option>
+					<option value="1276">De R$ 3001,00 até R$ 4000,00</option>
+					<option value="1277">De R$ 4001,00 até R$ 5000,00</option>
+					<option value="1278">De R$ 5001,00 até R$ 6000,00</option>
+					<option value="1279">Mais de R$ 6000,00</option>
+				</select>
+			</div>
+			</ul>
+		</div>
+		</div>
+	</section>
+
+	<section class="quebra">
+		<blockquote class="quote-externo container">
+			<p>"O verdadeiro segredo da felicidade está em ter um genuíno interesse por todos os detalhes da vida
+				cotidiana.”</p>
+			<cite>WILLIAM MORRIS</cite>
+		</blockquote>
+	</section>
+
+	<footer>
+		<div class="footer">
+			<div class="container">
+
+				<div class="grid-8 footer_historia">
+					<h3>Nossa história</h3>
+					<p>Visamos criar a melhor experiência ao pedalar para todos os ciclistas, não esquecendo o visual
+						retrô, liderando o universo da bicicleta e sendo o parceiro preferido de negócios em todos os
+						canais que servimos.</p>
+				</div>
+
+				<div class="grid-4 footer_contato">
+					<h3>Contato</h3>
+					<ul>
+						<li>- <a href="tel:1194674-9846">+55 (11) 94674-9846</a></li>
+						<li>- <a href="mailto:contactbikcraft@gmail.com">contactbikcraft@gmail.com></a></li>
+						<li>- <a href="https://www.google.com/maps/place/Av.+das+Nações+Unidas,+São+Paulo+-+SP/@-23.607465,-46.697247,15z/data=!4m5!3m4!1
+							s0x94ce56db330e8ea3:0xfdb06d3f49823ad4!8m2!3d-23.6074648!4d-46.6972465?hl=pt-BR" target="_blank">Av. das Nações
+								Unidas - Vila Gertrudes - SP</a></li>
+					</ul>
+				</div>
+
+				<div class="grid-4 footer_redes">
+					<h3>Redes sociais</h3>
+					<ul>
+						<li><a href="https://www.facebook.com/bikcraft/?ref=page_internal" target="_blank"><img
+									src="img/redes-sociais/facebook.svg" alt="Facebook Bikcraft"></a></li>
+						<li><a href="https://www.instagram.com/bikcraft/" target="_blank"><img
+									src="img/redes-sociais/instagram.svg" alt="Instagram Bikcraft"></a></li>
+						<li><a href="https://www.linkedin.com/company/bikcraft/" target="_blank"><img
+									src="img/redes-sociais/linkedin.png" alt="Linkedin Bikcraft"></a></li>
+					</ul>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="copy">
+			<div class="container">
+				<p class="grid-16">Bikcraft 2021 - Alguns direitos reservados.</p>
+			</div>
+		</div>
+	</footer>
+
+	<!-- JavaScript -->
+	<script src="./js/simple-anime.js"></script>
+	<script src="./js/simple-form.js"></script>
+	<script src="./js/script.js"></script>
+	<!-- JavaScript -->
+
+</body>
+
+</html>
